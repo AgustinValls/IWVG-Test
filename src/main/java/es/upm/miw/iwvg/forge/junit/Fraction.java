@@ -53,4 +53,11 @@ public class Fraction {
         return denominator;
     }
 
+    public void setNumerator(int numerator) {
+        this.numerator = numerator;
+    }
+
+    public void setDenominator(){
+        this.denominator = denominator;
+    }
 }
