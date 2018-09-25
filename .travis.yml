@@ -17,9 +17,4 @@ script:
 - mvn verify
 - mvn package
 - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
-<<<<<<< HEAD
 - mvn sonar:sonar -Dsonar.organization=agustinvalls-github -Dsonar.host.url=https://sonarcloud.io  -Dsonar.login=$SONOR
-=======
-- mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=agustinvalls-github -Dsonar.login=$SONAR
-
->>>>>>> 6d453b5c2fb68a2ea7b84e8401f330be3f775120
